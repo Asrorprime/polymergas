@@ -1,0 +1,52 @@
+#leftsite {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  right: 0;
+  position: absolute;
+  box-shadow: -4px 2px 20px rgba(103, 113, 126, 0.34293);
+
+  .modal-content {
+    background: #F3F5F9;
+    border-radius: 0;
+    top: 0;
+    min-height: 100vh !important;
+    width: 85vw;
+
+    .modal-body {
+      overflow-y: scroll;
+    }
+
+    .modal-header {
+      h5 {
+        z-index: 1;
+        font-size: 16px;
+      }
+
+      .close {
+        font-size: 17px;
+        line-height: 1.4px;
+        left: -45px;
+        width: 90px;
+        border-radius: 29px;
+        text-align: left;
+        height: 36px;
+        top: 30px;
+        padding-left: 15px;
+        z-index: -5;
+        opacity: unset;
+        position: absolute;
+        background: #F3F5F9;
+        color: #63676B;
+        padding-top: 11px;
+      }
+    }
+
+    .right-radius {
+      border-radius: 5px 0 0 5px
+    }
+
+    .left-radius {
+      border-radius: 0 5px 5px 0;
+    }
+  }
+}
